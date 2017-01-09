@@ -20,7 +20,7 @@ for (var i = 0; i < lengthClose; i++){
 }
 
 
-// Add a "checked" symbol when clicking on a list item
+// feature "checked"
 var list = document.querySelector('ul');
 list.addEventListener('click', function(ev) {
   if (ev.target.tagName === 'LI') {
@@ -28,7 +28,7 @@ list.addEventListener('click', function(ev) {
   }
 }, false);
 
-// Create a new list item when clicking on the "Add" button
+// feature Add 
 function newElement() {
   var li = document.createElement("li");
   var inputValue = document.getElementById("newInput").value;
