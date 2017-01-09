@@ -1,3 +1,5 @@
+"use strict";
+
 // Create a "close" button and append it to each list item
 var nodeList = document.getElementsByTagName("LI");
 var lengthNode = nodeList.length;
@@ -9,7 +11,7 @@ for (var i = 0; i < lengthNode; i++){
 }
 
 
-// Click on a close button to hide the current list item
+// close button
 var close = document.getElementsByClassName("close");
 var lengthClose = close.length;
 for (var i = 0; i < lengthClose; i++){
